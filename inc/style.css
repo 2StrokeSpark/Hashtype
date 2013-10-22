@@ -1,0 +1,261 @@
+﻿body{
+color: white;
+background-color: black;
+font: 10pt tahoma, geneva, verdana, lucida, arial, sans-serif;
+}
+
+h1{
+	text-align: center;
+	font-size: 20px;
+}
+
+h2{
+	text-align: center;
+	font-size: 17px;
+}
+
+input{
+	outline: none;
+}
+
+#hash_creator form{
+	text-align: center;
+}
+
+#hash_creator [type=text]{
+	font-size: 17px;
+	width: 350px;
+	height: 24px;
+	margin-bottom: 20px;
+	background: #959595;
+}
+
+#hash_creator [type=submit]{
+	width: 80px;
+	height: 28px;
+}
+
+input{
+	border: 1px solid black;
+}
+
+p{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+p#e404{
+	text-align: center;
+}
+
+p#hash{
+	text-align: center;
+}
+
+a#email{
+	text-decoration: underline;
+}
+
+a#contact{
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+
+a:link{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+}
+
+a:visited{
+	color: black;
+}
+
+#contact{
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contact textarea{
+	width: 450px;
+	height: 150px;
+}
+
+ul#hashlist{
+	padding: 0;
+	margin: 0;
+}
+
+ul#hashlist{
+	list-style-type: none;
+	width: 120px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul#hashlist li:nth-child(even){
+	background: #676767;
+}
+
+
+ul#navbar{
+	list-style: none;
+	width: 280px;
+	padding: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+
+ul#navbar li{
+	display: inline;
+}
+
+ul#navbar li a{
+	text-align: center;
+	text-decoration: none;
+	padding: 5px 5px;
+	width: 80px;
+	color: white;
+	background: #616161;
+	float: left;
+	border: solid 1px #8D8D8D;
+}
+
+ul#navbar li a:hover{
+	background: #939393;
+}
+
+
+#adblockBar{
+	width: 100%;
+	height: 25px;
+	padding: 0px;
+	margin-bottom: 25px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: red;
+	background-color: gray;
+	position: fixed;
+}
+
+#adblockBar p{
+	padding: 0;
+	margin-top: 3px;
+	text-align: center;
+	position: relative;
+}
+
+#logo {
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	display: block;
+	width: 216px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+
+#box{
+	width: 900px;
+	background: gray;
+	border: solid 1px #C3C3C3;
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+#bottombox{
+	width: 900px;
+	background-color: gray;
+	border: solid 1px #C3C3C3;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+#hash_form form{
+	text-align: center;
+}
+
+#hash_form [type=text]{
+	font-size: 17px;
+	width: 350px;
+	height: 24px;
+	background: #959595;
+}
+
+#hash_form [type=submit]{
+	margin-top: -17px;
+	display: block;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;	
+	visibility: hidden;
+}
+
+#hash_form input:focus{
+	border-color: white;
+}
+
+#contact label{
+	margin-top: 10px;
+	display: block;
+}
+
+#contact [name=email]{
+	width: 200px;
+	height: 25px;
+	background: #959595;
+}
+
+#contact textarea{
+	border: 1px solid black;
+	background: #959595;
+}
+
+#contact [type=submit]{
+    width: 50px;
+	height: 30px;
+	border-radius: 2px;
+}
+
+
+::-webkit-input-placeholder {
+   color: #515151;
+}
+
+:-moz-placeholder {
+   color: #515151;
+}
+
+
+#adsense{
+	width: 728px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+
+
